@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    padding: 0;
+border: none;
+background: none;
+}
+
+h1{
+    text-align: center;
+}
+
+#mainImg{
+    width: 30vw;
+    height: 30vw;
+    margin: auto;
+}
+
+  .rowcontainer{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0.2vw;
+}
+
+.row{
+  flex: 20%;
+  max-width: 25%;
+  overflow: hidden;
+  margin: 1vw;
+  
+}
+
+img{
+  display: block;
+  width: 100%;
+}
